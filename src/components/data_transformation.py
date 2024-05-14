@@ -20,8 +20,7 @@ class DataTransformation:
 
     def get_data_transformer_object(self):
         '''
-        This function si responsible for data transformation
-        
+        This function is responsible for data transformation
         '''
         try:
             preprocessor = Pipeline(steps= [('scaler', StandardScaler())])
